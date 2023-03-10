@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Projects
 layout: base.njk
 tags: navItem
 ---

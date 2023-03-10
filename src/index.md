@@ -20,3 +20,13 @@ This is the home page. Replace this with your text.
 - love
 - mil
 - nine
+
+<h1>Photos </h1>
+
+<ul>
+{% for page in collections.photo %}
+<li>
+    <a href="{{ page.url }}"> {{ page.data.title }}</a>
+</li>
+{% endfor %}
+</ul>
